@@ -1,6 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-
 require("./styles.scss");
 
 class Tasks extends React.Component {

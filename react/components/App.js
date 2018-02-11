@@ -6,16 +6,15 @@ var Switch = ReactRouter.Switch;
 
 // Components
 //import components here
+var Tasks = require("./components/Tasks");
 //
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        // Add Navbar here
         <Switch>
-          //<Route exact path="/" component={Home} />
-          //<Route exact path="/login" component={Login} />
+          <Route exact path="/" component={Tasks} />
         </Switch>
       </div>
     );
