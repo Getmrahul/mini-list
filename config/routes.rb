@@ -3,5 +3,4 @@ Rails.application.routes.draw do
   get '/*path' => 'react#index'
   
   root 'react#index'
-
 end

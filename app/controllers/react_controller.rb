@@ -3,5 +3,3 @@ class ReactController < ApplicationController
     render file: 'public/index.html', layout: false
   end
 end
-
-
