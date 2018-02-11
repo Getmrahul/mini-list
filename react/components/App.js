@@ -5,9 +5,7 @@ var Redirect = ReactRouter.Redirect;
 var Switch = ReactRouter.Switch;
 
 // Components
-//import components here
 var Tasks = require("./Tasks");
-//
 
 class App extends React.Component {
   render() {
