@@ -1,0 +1,11 @@
+@import "reactjs/global.scss";
+
+.navbar-white {
+  -webkit-box-shadow: 0px 0px 1px 1px $grey-shadow;
+  -moz-box-shadow: 0px 0px 1px 1px $grey-shadow;
+  box-shadow: 0px 0px 1px 1px $grey-shadow;
+}
+
+.baseStyle {
+  color: $light-red;
+}

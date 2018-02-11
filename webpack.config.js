@@ -23,7 +23,7 @@ var config = {
       template: "react/index.html"
     })
   ]
-i};
+};
 
 if (process.env.NODE_ENV === "production") {
   config.plugins.push(
