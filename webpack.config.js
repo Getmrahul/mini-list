@@ -3,7 +3,7 @@ var HtmlWebpackPlugin = require("html-webpack-plugin");
 var webpack = require("webpack");
 
 var config = {
-  entry: ["babel-polyfill", "./reactjs/index.js"],
+  entry: ["babel-polyfill", "./react/index.js"],
   output: {
     path: __dirname + "/public/static/js/",
     filename: "index_bundle.js",
@@ -23,7 +23,7 @@ var config = {
       template: "react/index.html"
     })
   ]
-i};
+};
 
 if (process.env.NODE_ENV === "production") {
   config.plugins.push(
